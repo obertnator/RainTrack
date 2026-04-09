@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Home</title>
+</head>
+<body>
+    <header class="header">
+        <h1>RainTrack</h1>
+        <p>A weather tracking platform</p>
+    </header>
+
+    <main class="container">
+        <h2>RainTrack</h2>
+        <p>Record Daily Rainfall</p>
+
+        <div class="form">
+            <div class="box">
+                <label for="date">Date</label> <br>
+                <input type="date" id="date" name="datePicker" placeholder="yyyy/mm/dd">
+            </div>
+            
+            <div class="box">
+                <label for="rainfall_label">Rainfall (mm)</label> <br>
+                <input type="number" id="rainfall" name="rainfall" placeholder="e.g. 12.5"> <br>
+            </div>
+           
+            <div class="box">
+                <button>Save (no action)</button>
+                <a href="chart.html">
+                    <button>View Chart</button>
+                </a>
+                
+            </div>
+            
+        </div>    
+    </main>
+
+    <footer>
+        <p>Created by Obert &copy;</p>
+    </footer>
+</body>
+</html>
